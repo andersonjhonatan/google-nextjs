@@ -39,7 +39,7 @@ function HomeSearchComponent() {
     <div className="items-center flex flex-col justify-center  h-[calc(100vh-4rem)]">
       <ImageComponent />
       <form onSubmit={handleSubmit} className="flex gap-2 flex-col w-full">
-        <div className="relative flex items-center justify-center w-7/12 mx-auto max-sm:w-11/12">
+        <div className="relative flex items-center justify-center w-2/4 mx-auto max-sm:w-11/12">
           <CiSearch className="absolute top-3 left-2" />
           <input
             type="text"
